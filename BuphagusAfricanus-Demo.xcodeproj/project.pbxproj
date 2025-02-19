@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		033588002D65FB7800784363 /* BuphagusAfricanus in Frameworks */ = {isa = PBXBuildFile; productRef = 033587FF2D65FB7800784363 /* BuphagusAfricanus */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		033587EC2D65FB4000784363 /* BuphagusAfricanus-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BuphagusAfricanus-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033588002D65FB7800784363 /* BuphagusAfricanus in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = "BuphagusAfricanus-Demo";
 			packageProductDependencies = (
+				033587FF2D65FB7800784363 /* BuphagusAfricanus */,
 			);
 			productName = "BuphagusAfricanus-Demo";
 			productReference = 033587EC2D65FB4000784363 /* BuphagusAfricanus-Demo.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 033587E32D65FB4000784363;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				033587FE2D65FB7800784363 /* XCRemoteSwiftPackageReference "BuphagusAfricanus" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 033587ED2D65FB4000784363 /* Products */;
 			projectDirPath = "";
@@ -249,12 +258,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "BuphagusAfricanus-Demo/BuphagusAfricanus_Demo.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BuphagusAfricanus-Demo/Preview Content\"";
-				DEVELOPMENT_TEAM = FUX8BPCLMV;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -276,12 +286,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "BuphagusAfricanus-Demo/BuphagusAfricanus_Demo.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BuphagusAfricanus-Demo/Preview Content\"";
-				DEVELOPMENT_TEAM = FUX8BPCLMV;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -307,7 +318,7 @@
 				033587FA2D65FB4200784363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		033587FB2D65FB4200784363 /* Build configuration list for PBXNativeTarget "BuphagusAfricanus-Demo" */ = {
 			isa = XCConfigurationList;
@@ -316,9 +327,28 @@
 				033587FD2D65FB4200784363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		033587FE2D65FB7800784363 /* XCRemoteSwiftPackageReference "BuphagusAfricanus" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Nekomi-Kokadaigaku/BuphagusAfricanus";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		033587FF2D65FB7800784363 /* BuphagusAfricanus */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 033587FE2D65FB7800784363 /* XCRemoteSwiftPackageReference "BuphagusAfricanus" */;
+			productName = BuphagusAfricanus;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 033587E42D65FB4000784363 /* Project object */;
 }

@@ -6,9 +6,13 @@
 //
 
 import SwiftUI
+import BuphagusAfricanus
 
 @main
 struct BuphagusAfricanus_DemoApp: App {
+    
+    @NSApplicationDelegateAdaptor(baAppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

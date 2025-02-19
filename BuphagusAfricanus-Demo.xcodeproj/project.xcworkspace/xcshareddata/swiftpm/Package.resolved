@@ -1,0 +1,15 @@
+{
+  "originHash" : "8be304386f69a3a1bfbe728d5c18f37c055e447b88ce28d4d234734e9b9f9bc2",
+  "pins" : [
+    {
+      "identity" : "buphagusafricanus",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Nekomi-Kokadaigaku/BuphagusAfricanus",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3e57db22c95b50293b706366aa7349290e284269"
+      }
+    }
+  ],
+  "version" : 3
+}
