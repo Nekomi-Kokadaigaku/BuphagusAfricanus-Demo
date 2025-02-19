@@ -14,7 +14,7 @@ struct ContentView: View {
 
     /// 调试状态对象
     @ObservedObject var debugState: baDebugState = .shared
-//    @ObservedObject var manager = baWindowManager.shared
+    @ObservedObject var manager = baWindowManager.shared
     @State private var counter = 0 {
         didSet {
             debugState.updateWatchVariable(
@@ -33,14 +33,11 @@ struct ContentView: View {
                 Button("增加计数") {
                     incrementCounter()
                 }
-//                .buttonStyle(baMainWindowButtonStyle())
 
                 // 重置窗口位置按钮
                 Button("重置窗口位置") {
-//                    manager.snapDebugWindowToMain()
+                    baWindowManager.shared.snapDebugWindowToMain()
                 }
-//                .buttonStyle(baMainWindowButtonStyle())
-
 //                Button("切换动画模式") {
 //                    withAnimation {
 //                        manager.windowMode =
