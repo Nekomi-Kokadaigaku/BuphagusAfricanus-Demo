@@ -64,7 +64,9 @@ struct ContentView: View {
             Spacer()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-
+        .onAppear {
+            baGlobalConfig.shared.setDebugMode(true)
+        }
     }
 }
 
